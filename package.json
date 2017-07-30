@@ -1,0 +1,27 @@
+{
+  "name": "mpolitze.github.io",
+  "version": "1.0.0",
+  "description": "a simple about me page",
+  "main": "index.js",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  },
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpolitze/mpolitze.github.io.git"
+  },
+  "keywords": [
+    "about",
+    "me",
+    "mpolitze"
+  ],
+  "author": "mpolitze",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/mpolitze/mpolitze.github.io/issues"
+  },
+  "homepage": "https://github.com/mpolitze/mpolitze.github.io#readme"
+}
