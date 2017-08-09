@@ -301,7 +301,7 @@
 		
 		$('a[href^="./pub/"][href$=".pdf"]').click(function(){			
 			var file = $(this).attr('href').substr(6);
-			$.featherlight({iframe: 'viewer?../pub/'+file});
+			$.featherlight({iframe: 'viewer/?../pub/'+file});
 		return false;
 		});	
 
