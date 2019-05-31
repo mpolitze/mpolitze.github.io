@@ -402,7 +402,7 @@
         $('a[href^="./pub/"][href$=".pdf"]').click(function(){
             var file = $(this).attr('href').substr(6);
             $.featherlight({iframe: 'viewer/?d=../pub/'+file});
-        return false;
+            return false;
         });
 
         /*$(window).scroll(function () {

@@ -1,1 +1,1 @@
-Visit https://mpolitze.github.io
+Visit https://m.politze.net
