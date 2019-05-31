@@ -1,4 +1,5 @@
 {
-    "editor.wordWrap" : "wordWrapColumn",
-    "editor.wordWrapColumn": 100,
+    "editor.wordWrap" : "on",
+    //"editor.wordWrap" : "wordWrapColumn",
+    //"editor.wordWrapColumn": 100,
 }

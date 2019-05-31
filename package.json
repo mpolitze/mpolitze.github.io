@@ -4,10 +4,12 @@
   "description": "a simple about me page",
   "main": "index.js",
   "devDependencies": {
-    "http-server": "^0.10.0"
+    "serve": "^11.0.1",
+    "slugify": "^1.3.4"
   },
   "scripts": {
-    "start": "http-server"
+    "start": "serve",
+    "slug": "node -e \"console.log(require('slugify')(process.argv[1],'_').toLowerCase())\""
   },
   "repository": {
     "type": "git",
